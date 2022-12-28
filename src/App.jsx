@@ -20,6 +20,8 @@ export const App = () => {
       case 'neutral':
         setNeutral(prevState => prevState + 1);
         break;
+      default:
+        break;
     }
   };
 
